@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	
+	/******Fondo adaptable a pantalla */
+    background: url(../imagenes/background/material-design.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+/*
+.bg-fondo {
+	background-image:url(../imagenes/background/material-design.jpg);
+}
+*/
+.contenedor {
+	margin:auto;
+	width:1080px;
+	height:1000px;
+}
+
+.header {
+	width: 1034px;
+	height: 102px;
+	margin: 10px auto -1px auto;
+}
+.img_logo {
+	margin-left: -13px;
+}
+#fondo-botones {
+	background-color:#333333;	
+	width: 692px;
+	height:50px;
+	margin: 0px auto 0px auto;
+	padding: 23px 0px 0px 0px;
+	font-size:17px;
+	/*font-weight:bold;*/
+}
+/**********************BOTONES y SUBMENUS******************************/
+
+
+ul {
+	/*padding: 0px 0px 0px 100px;**/
+	list-style-type:none;		
+}
+.nav > li {	
+	float:left;
+}
+.nav li a {	
+	color: rgba(240, 255, 13, 0.9);
+	text-decoration:none;
+	padding: 13px 21px 17px 17px;
+	display:block;
+	background-color:rgba(35, 36, 31, 0.78); 	
+}
+.nav li a:hover {
+	background-color: rgba(0, 102, 153, 0.8);
+	
+}
+.nav li ul {
+	display: none;
+	position:absolute;
+	min-width: 140px;
+}
+.nav li:hover > ul {
+	display:block;
+}
+.nav li ul li {
+	position:relative;
+}
+.nav li ul li ul {
+	right: -140px;
+	top: 0px;
+}
+/***************************************/
+
+.body {
+	width: 1034px;
+	height: 805px;
+	background-color:#333333;
+	margin: -19px auto 10px auto;
+	box-shadow: 1px 4px 26px 1px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	
+}
+.contenedor-txt-contacto {
+	width: 593px;
+	height: 604px;
+	margin: 74px auto 0px auto;
+	background-color:#333333;
+	border-top-width: 2px;							 	border-top-style: solid; 	     	 	border-left-width: 2px;          		 	border-left-style: solid;     	 	 	border-bottom-width: 2px;      	 	 	border-bottom-style: solid;      	 	border-right-width: 2px;       	 	 	border-right-style: solid;
+    border-color:#999933;
+}
+/************Definiendo color de letra a las etiquetas**********************/
+h1 {
+	text-align:center;
+	color: #999933;
+	font-family: "Times New Roman", "Hoefler Text", "Liberation Serif";
+	
+}
+p {
+	text-align:center;
+	color: #999933;
+	font-family:"Arial";
+	font-size:14px;
+	margin-top: -22px;
+}
+.a-google-link {
+	text-decoration:none;
+	color:#06F;
+}
+.a-google-link:hover {
+	color:#FFF;
+}
+/********************FOOTER*****************************/
+.footer {
+	width: 1034px;
+	height: 110px;
+	background-color:#333;
+	margin: 10px auto 3px auto;
+	border-radius: 20px;
+}
+/**********Botones y aliniamiento footer***********/
+
+.footer-menu {
+	width: 600;
+	height: 62;
+	margin-left: 328px;
+	padding-top: 22px;
+}
+.ul-footer {
+	padding-left: 0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	
+	
+}
+.li-footer {
+	float:left;	
+	
+}
+.li-separadores-footer{
+	margin-left: 12px;
+	margin-right: 12px;
+	float:left;
+}
+.a-footer {	
+	color:#FFF;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+	
+}
+
+.a-footer:hover {
+	
+	color:#cccc33;
+}
+.p-footer {
+	font-size:8pt;
+	color:#FFF;
+	text-align:left;
+	margin-top: 6px;
+	margin-left: 45px;
+
+}

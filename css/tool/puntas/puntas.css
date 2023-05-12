@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+
+.color_bg {
+	background-image:url(../../../imagenes/background/material-design.jpg);
+}
+
+.contenedor {
+	margin:auto;
+	width: 1080px;
+	height: 1006px;
+	/*background-color:#CC0;*/
+	margin-bottom: 0px;
+}
+
+.header_logo {
+	width: 1035px;
+	height: 101px;
+	padding-left: 9px;
+	margin-bottom: 0px;
+}
+
+.header_botones {
+	width: 654px;
+	height: 56px;
+	margin: 0px auto 0px auto;
+	background-color:#333333;
+	padding-top: 23px;
+
+}
+/***********************************/
+#fondo-botones {
+	background-color:#333333;	
+	width: 692px;
+	height:50px;
+	margin: 0px auto 0px auto;
+	padding: 23px 0px 0px 0px;
+	font-size:17px;
+	font-weight:bold;
+}
+/**********************BOTONES y SUBMENUS******************************/
+
+
+ul {
+	/*padding: 0px 0px 0px 100px;**/
+	list-style-type:none;		
+}
+.nav > li {	
+	float:left;
+}
+.nav li a {	
+	color: rgba(240, 255, 13, 0.9);
+	text-decoration:none;
+	padding: 13px 21px 17px 17px;
+	display:block;
+	background-color:rgba(35, 36, 31, 0.78); 	
+}
+.nav li a:hover {
+	background-color: rgba(0, 102, 153, 0.8);
+	
+}
+.nav li ul {
+	display: none;
+	position:absolute;
+	min-width: 140px;
+}
+.nav li:hover > ul {
+	display:block;
+}
+.nav li ul li {
+	position:relative;
+}
+.nav li ul li ul {
+	right: -140px;
+	top: 0px;
+}
+/***************************************/
+h2 {
+	font-family: "Times New Roman";
+	color: #999933;
+	text-align:center;
+	text-decoration:underline;
+}
+
+.body {
+	width: 1035px;
+	height:2290px;
+	margin: -17px auto 10px auto;
+	background-color:#333333;
+	box-shadow: 1px 4px 26px 1px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+}
+.conte2 {
+	width: 950px;
+	height:2105px;
+	background-color:#C1CCBC;
+	margin: 0px auto 0px auto;
+	border-radius: 10px;
+}
+/*************TABLA**********/
+
+#tabla {
+	width: 90%;
+	border: 5px;
+	border-style:	ridge;
+	padding: 5px 0px 5px 0px;
+	margin: 0px auto 0px auto;
+	border-collapse: collapse;
+	
+	/*background-color:#F60;*/
+}
+
+th {
+	
+    width: 400px;
+	height: 36px;
+	border: 5px;
+	border-style:ridge;
+	background-color:#008CC2;
+	color: #D1E000;
+	border-color: #fff;
+	
+	
+}
+
+/****bordes internos en detalles******/
+table p {
+    padding-left: 10px;
+    border: 2px;
+    border-style: ridge;
+    background: #008CC2;
+	margin: 13px;
+	border-radius: 5px;
+	border-color:#fff;
+	color:#Fff;
+	font-weight:bold;
+	font-size:14px;
+	
+}
+
+table b {
+	color:#D33300;
+	font-weight:bold;
+	font-size:18px;
+}
+
+td {
+	border: 5px;
+	border-style:ridge;
+	border-color: #fff;
+	
+}
+
+td img {
+	width: 424px;
+	height:208px;
+	border: 5px;
+	border-style:solid;
+	border-color: #999933;
+	border-radius: 10px;
+	
+}
+tr {
+	
+	border: 5px;
+	border-style:ridge;
+	border-color: #fff;
+}
+
+
+
+/******************tamano del footer*****/
+.footer {
+	margin: 0px auto 3px auto;
+	width: 1035px;
+	height: 111px;
+	background-color: #333333;
+	border-radius: 20px;
+}
+/****************************/
+/**********Botones y aliniamiento footer***********/
+
+.footer-menu {
+	width: 600;
+	height: 62;
+	margin-left: 328px;
+	padding-top: 22px;
+}
+.ul-footer {
+	padding-left: 0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	
+	
+}
+.li-footer {
+	float:left;	
+	
+}
+.li-separadores-footer{
+	margin-left: 12px;
+	margin-right: 12px;
+	float:left;
+}
+.a-footer {	
+	color:#FFF;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+	
+}
+
+.a-footer:hover {
+	
+	color:#cccc33;
+}
+.p-footer {
+	font-size:8pt;
+	margin-left: 45px;
+	color:#FFF;
+	text-align:left;
+	margin-top: 6px;
+
+}
